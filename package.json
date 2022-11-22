@@ -1,0 +1,30 @@
+{
+  "name": "solid_pokemon",
+  "scripts": {
+    "dev": "solid-start dev",
+    "build": "solid-start build",
+    "start": "solid-start start"
+  },
+  "type": "module",
+  "devDependencies": {
+    "@vanilla-extract/vite-plugin": "^3.7.0",
+    "solid-start-cloudflare-pages": "^0.2.5",
+    "solid-start-node": "^0.2.5",
+    "typescript": "^4.9.3",
+    "vite": "^3.2.4"
+  },
+  "dependencies": {
+    "@fontsource/montserrat": "^4.5.13",
+    "@solidjs/meta": "^0.28.2",
+    "@solidjs/router": "^0.5.0",
+    "@vanilla-extract/css": "^1.9.2",
+    "classnames": "^2.3.2",
+    "solid-icons": "^1.0.4",
+    "solid-js": "^1.6.2",
+    "solid-start": "^0.2.5",
+    "undici": "^5.12.0"
+  },
+  "engines": {
+    "node": ">=16"
+  }
+}
